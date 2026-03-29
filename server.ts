@@ -67,6 +67,8 @@ async function startServer() {
   // 2. Receive Messages (POST)
   app.post('/api/webhook', async (req, res) => {
     const body = req.body;
+    console.log("=== WEBHOOK RECEBIDO ===");
+    console.log(JSON.stringify(body, null, 2));
 
     if (body.object) {
       if (
