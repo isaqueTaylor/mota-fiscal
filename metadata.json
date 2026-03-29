@@ -1,0 +1,5 @@
+{
+  "name": "Extrator de Notas Fiscais",
+  "description": "Aplicativo para extração de dados de notas fiscais e recibos usando IA.",
+  "requestFramePermissions": []
+}
